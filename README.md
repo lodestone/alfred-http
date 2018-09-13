@@ -11,8 +11,8 @@ Hitting return opens a browser window with the proper RFC for that status code.
 ## Installation
 
 * Download the [latest
-release](https://github.com/JoelQ/alfred-http/releases/latest)
-* Open finder and doubleclick the `HTTP.Statuses.alfredworkflow` file
+release](https://github.com/lodestone/alfred-http/releases/latest)
+* Open finder and doubleclick the `HTTP.alfredworkflow` file
 
 ## Contributing
 
@@ -21,4 +21,4 @@ guidelines](https://github.com/JoelQ/alfred-http/blob/master/CONTRIBUTING.md)
 
 ## License
 
-This software is licensed under the [MIT licence](https://github.com/JoelQ/alfred-http/blob/master/LICENSE.md)
+This software is licensed under the [MIT licence](https://github.com/lodestone/alfred-http/blob/master/LICENSE.md)
