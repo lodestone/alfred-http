@@ -17,7 +17,7 @@ release](https://github.com/lodestone/alfred-http/releases/latest)
 ## Contributing
 
 Check out the [contributing
-guidelines](https://github.com/JoelQ/alfred-http/blob/master/CONTRIBUTING.md)
+guidelines](https://github.com/lodestone/alfred-http/blob/master/CONTRIBUTING.md)
 
 ## License
 
