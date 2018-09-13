@@ -3,44 +3,66 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
-	<key>category</key>
-	<string>Tools</string>
+	<string>com.kizmeta.httpCodes</string>
 	<key>connections</key>
 	<dict>
-		<key>874CA1E0-1CB5-414B-9AE9-640C9D4D5689</key>
+		<key>CEE1B70D-7CDB-47D2-B356-A7EA2E718ADE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7AA93635-6392-44CE-992F-C5F41F99DF06</string>
+				<string>0900D480-F70C-4A5E-87D3-FB50E3778A23</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Joël Quenneville</string>
+	<string>@lodestone</string>
 	<key>description</key>
-	<string>HTTP status codes</string>
+	<string>HTTP Status Codes</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>HTTP</string>
+	<string>HTTP Codes</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
 				<string>http</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>ruby alfred-http.rb {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
 				<key>title</key>
 				<string>Look up HTTP statuses</string>
 				<key>type</key>
@@ -51,15 +73,17 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>874CA1E0-1CB5-414B-9AE9-640C9D4D5689</string>
+			<string>CEE1B70D-7CDB-47D2-B356-A7EA2E718ADE</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>{query}</string>
 				<key>utf8</key>
@@ -68,27 +92,31 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>7AA93635-6392-44CE-992F-C5F41F99DF06</string>
+			<string>0900D480-F70C-4A5E-87D3-FB50E3778A23</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>7AA93635-6392-44CE-992F-C5F41F99DF06</key>
+		<key>0900D480-F70C-4A5E-87D3-FB50E3778A23</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>70</integer>
 		</dict>
-		<key>874CA1E0-1CB5-414B-9AE9-640C9D4D5689</key>
+		<key>CEE1B70D-7CDB-47D2-B356-A7EA2E718ADE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>70</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://nx.is</string>
 </dict>
 </plist>
