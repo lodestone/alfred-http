@@ -204,6 +204,12 @@ statuses = [
     :defined_in => "http://tools.ietf.org/html/rfc7231#section-6.5.14",
   },
   {
+    :status_code => "422",
+    :reason_phrase => "Unprocessable Entity",
+    :one_liner => "the server was unable to process the instructions.",
+    :defined_in => "https://tools.ietf.org/html/rfc4918#section-11.2"
+  },
+  {
     :status_code => "426",
     :reason_phrase => "Upgrade Required",
     :one_liner => "The client should switch to a different protocol",
@@ -249,7 +255,8 @@ statuses = [
 
 
 matches = statuses.select do |status|
-  status[:status_code].to_s.include? ARGV.first
+  arg = ARGV.first.downcase
+  status[:status_code].to_s.include?(arg) || status[:reason_phrase].downcase.include?(arg) || status[:one_liner].downcase.include?(arg)
 end
 
 require "rexml/document"
